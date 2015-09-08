@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "ABC Radio Chrome Extension",
+  "description": "",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "http://www.abc.net.au/"
+  ]
+}
